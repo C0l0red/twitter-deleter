@@ -14,4 +14,6 @@ __Note__: it takes a day to get the archive ready, and it's a really big zip fil
 - Now that you have both, all you have to do is create a Twitter API app
 [here](https://developer.twitter.com/en/apps) if you don't already have one. 
 - After that, create the neccesary access tokens and client tokens in your Developer portal. 
-- Unzip your
+- Unzip your Twitter Archive, go to `data` and open `tweets.js`. It is a JavaScript file and can't be read if you're using
+Python, you'll have to change the `tweets` variable to json by surrounding it with __double__ quotes and enclosing the entire
+file in curly braces

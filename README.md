@@ -7,7 +7,7 @@ To get one, go [here](https://developer.twitter.com/en/apply-for-access).
 __Note__: it could take
 up to a month before your Developer Account gets created.
 - Twitter Archive. If you're planning on deleting more than your last 3,200 tweets,
-then you'll need your account's archive. Learn how to get it [here](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive). 
+then you'll need your account's archive. Learn how to get it [here](https://help.twitter.com/en/managing-your-account/how-to-download-your-twitter-archive).   
 __Note__: it takes a day to get the archive ready, and it's a really big zip file containing all your Twitter data.
 
 ## Getting Started
@@ -28,7 +28,7 @@ tweets = [{...allTheTweets}] // The array contains all tweet objects
 ## Using the Python Script
 Everything is set, now place `tweets.json` in the same folder as the Python Script,
 and call it with `python deleter` for Windows or `python3 deleter` for Linux/Mac.  
-This creates a `log.txt` file that helps you note what index you stopped at, in a case
-where the script crashes. 
+The script creates a `log.txt` file that helps you note what index you stopped at, in a case
+where the script crashes.  
 You can now use the last known index as a starting point the next time you're calling the script
 like so `python deleter <start number>` where `start number` is the last known index

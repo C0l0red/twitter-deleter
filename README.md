@@ -25,7 +25,7 @@ tweets = [{...allTheTweets}] // The array contains all tweet objects
 {"tweets" : [{...allTheTweets}]}
 // Then rename the file to tweets.json
 ```
-- Install `requests` and `requests-oauthlib` with pip.  
+- Install `requests`, `requests-oauthlib` and `python-dotenv` with pip.  
 `pip install requests requests-oauthlib`
 ## Using the Python Script
 Everything is set, now place `tweets.json` in the same folder as the Python Script,

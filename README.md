@@ -25,3 +25,10 @@ tweets = [{...allTheTweets}] // The array contains all tweet objects
 {"tweets" : [{...allTheTweets}]}
 // Then rename the file to tweets.json
 ```
+## Using the Python Script
+Everything is set, now place `tweets.json` in the same folder as the Python Script,
+and call it with `python deleter` for Windows or `python3 deleter` for Linux/Mac. 
+This creates a `log.txt` file that helps you note what index you stopped at, in a case
+where the script crashes. 
+You can now use the last known index as a starting point the next time you're calling the script
+like so `python deleter <start number>` where `start number` is the last known index

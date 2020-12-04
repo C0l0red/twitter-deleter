@@ -3,7 +3,7 @@ A simple Python script for bulk deleting tweets
 
 ## Prerequisites
 - A Twitter Developer Account.
-To get one, go [here](https://developer.twitter.com/en/apply-for-access). 
+To get one, go [here](https://developer.twitter.com/en/apply-for-access).  
 __Note__: it could take
 up to a month before your Developer Account gets created.
 - Twitter Archive. If you're planning on deleting more than your last 3,200 tweets,

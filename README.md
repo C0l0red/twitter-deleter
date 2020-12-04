@@ -17,7 +17,11 @@ __Note__: it takes a day to get the archive ready, and it's a really big zip fil
 - Unzip your Twitter Archive, go to `data` and open `tweets.js`. It is a JavaScript file and can't be read if you're using
 Python, you'll have to change the `tweets` variable to json by surrounding it with __double__ quotes, changing the equals
 sign to a colon and enclosing the entire file in curly braces. 
-*Before*:
 ```javascript
-let a = 1
+// Before
+tweets = [{...allTheTweets}] // The array contains all tweet objects
+
+// After
+{"tweets" : [{...allTheTweets}]}
+// Then rename the file to tweets.json
 ```

@@ -33,4 +33,8 @@ The script creates a `log.txt` file that helps you note what index you stopped a
 where the script crashes.  
 
 You can now look up what error caused it to crash, and use the last known index as the starting point the next time you're calling the script
-like so `python deleter <start number>` or `python3 deleter <star number>` where `start number` is the last known index
+like so  
+`python deleter <start number>`  
+or  
+`python3 deleter <start number>`  
+where `start number` is the last known index

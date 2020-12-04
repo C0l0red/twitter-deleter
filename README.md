@@ -42,4 +42,19 @@ like so
 `python deleter <start number>`  
 or  
 `python3 deleter <start number>`  
-where `start number` is the last known index
+where `start number` is the last known index.  
+## Debugging
+It is very unlikely that the program will crash due to any error unless things aren't setup right
+but in the event that it does, check the log file for the last line, it should contain an error, but if
+it doesn't, you can use the little piece of code at the end of the file to test for specific indexes around the last
+recorded index in `log.txt`, when you find the index giving the unknown error, you can skip it and use the next index as the start number.
+If the last recorded index was, say 1250, you can edit the code to log in multiples of 5 rather than 50 to narrow down the error-catching index.  
+
+When you're sure of the index giving the errors, i.e 1262, you skip it and call script with the next index like so:  
+`python deleter 1263`  
+or
+`python3 deleter 1263`  
+And everything should work fine.  
+
+Contact me on [Twitter](https://twitter.com/redDevv?s=09) if anything is unclear.  
+Thank you.

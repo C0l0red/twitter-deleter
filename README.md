@@ -28,7 +28,9 @@ tweets = [{...allTheTweets}] // The array contains all tweet objects
 ## Using the Python Script
 Everything is set, now place `tweets.json` in the same folder as the Python Script,
 and call it with `python deleter` for Windows or `python3 deleter` for Linux/Mac.  
+
 The script creates a `log.txt` file that helps you note what index you stopped at, in a case
 where the script crashes.  
-You can now use the last known index as a starting point the next time you're calling the script
-like so `python deleter <start number>` where `start number` is the last known index
+
+You can now look up what error caused it to crash, and use the last known index as the starting point the next time you're calling the script
+like so `python deleter <start number>` or `python3 deleter <star number>` where `start number` is the last known index
